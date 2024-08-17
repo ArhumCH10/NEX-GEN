@@ -1,0 +1,113 @@
+.service-section {
+    text-align: left;
+    color: white;
+    padding: 2rem;
+    background-color: #111;
+    padding-top: 230px;
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+
+  .row {
+  }
+
+  .col-1{
+    width: 33%;
+  }
+
+  .col-2{
+    width: 67%;
+  }
+  
+  .service-section h2 {
+    font-weight: 600;
+    color: #999696;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 20px;
+  }
+  
+  .service-section h1 {
+    margin: 1rem 0;
+    font-weight: 600;
+    font-size: 42px;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .service-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 columns across */
+    grid-template-rows: repeat(2, auto); /* 2 rows */
+    gap: 1.5rem;
+    width: 100%; /* Ensure it uses full width */
+}
+
+.service-card {
+    position: relative;
+    background-color: #222;
+    border-radius: 8px;
+    text-align: center;
+    width: 100%;
+}
+
+.service-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    opacity: 0.5;
+}
+
+.service-card h3 {
+    position: absolute;
+    bottom: 50px; /* Position it a little above the bottom */
+    left: 44%;
+    transform: translateX(-50%);
+    margin: 0;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    padding: 0.5rem 1rem; /* Optional: Add some padding */
+    border-radius: 5px; /* Optional: Add border-radius for rounded corners */
+    width: calc(100% - 20px); /* Adjust the width to match the image */
+    text-align: left;
+}
+
+.service-card:hover {
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    -webkit-box-shadow: 0 0 30px #ff4d4d;
+        box-shadow: 0 0 30px #ff4d4d;
+}
+
+.service-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 columns across */
+    gap: 1.5rem;
+    width: 100%; /* Ensure it uses full width */
+}
+
+.service-card:hover {
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+
+.service-card:hover h3 {
+    color: #fff; /* Ensure the text color remains white */
+}
+
+.service-card h3 {
+    z-index: 2; /* Ensure the text is above the overlay */
+}
+
+.see-all-services {
+    display: inline-block;
+    margin-top: 2rem;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .see-all-services:hover {
+    text-decoration: underline;
+    color: #ff5722;
+  }
