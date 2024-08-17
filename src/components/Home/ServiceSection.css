@@ -12,11 +12,11 @@
   }
 
   .col-1{
-    width: 33%;
+    width: 33% !important;
   }
 
   .col-2{
-    width: 67%;
+    width: 67% !important;
   }
   
   .service-section h2 {
